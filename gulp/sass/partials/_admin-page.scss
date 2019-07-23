@@ -1,0 +1,168 @@
+#admin-main-content-wrap {
+    padding-bottom: 30px;
+    
+    @media (min-width: $screen-md-min) {
+        padding-top: 30px;
+    }
+}
+
+.page-wrapper {
+    
+}
+
+.page-title {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+    
+    h1 {
+        font: {
+            weight: 600;
+            size: 28px;
+        }
+    }
+}
+
+.btn-wrap {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.required-label {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: red;
+    font: {
+        size: 12px;
+        style: italic;
+    } 
+}
+
+.search-filter-header {
+    
+    .fa-caret-up,
+    .fa-caret-down {
+        margin-left: 5px;
+    }
+    
+    &[aria-expanded="true"] {
+        
+        .fa-caret-up {
+            display: inline-block;
+        }
+        
+        .fa-caret-down {
+            display: none;
+        }
+        
+    }
+    
+    &[aria-expanded="false"] {
+        
+        .fa-caret-up {
+            display: none;
+        }
+        
+        .fa-caret-down {
+            display: inline-block;
+        }
+        
+    }
+    
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+    }
+    
+}
+
+fieldset {
+    margin-bottom: 25px;
+    
+    legend {
+        font-weight: 600;
+    }
+    
+}
+
+label {
+    color: #333;
+}
+
+.search-wrap {
+    
+    .panel {
+        border-color: #e69817;
+    }
+
+    .panel-heading {
+        background-color: #e0920b;
+        border-color: #e69811;
+    }
+
+}
+
+.login-page {
+    margin-top: 40px;
+}
+
+.login-wrap {
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0px 1px 4px #aaa;
+}
+
+.login-logo {
+    position: relative;
+
+    /*&:after {
+        margin-left: -75px;
+        border: 1px solid #333333;
+        display: block;
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        width: 150px;
+    }*/
+}
+
+.login-title {
+    margin-bottom: 90px;
+    font-size: 22px;
+}
+
+.btn-field-details-collase {
+    color: #333;
+
+    &:active,
+    &:focus,
+    &:hover {
+        color: #333;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    &[aria-expanded="true"] {
+
+        .glyphicon-chevron-down {
+            display: none;
+        }
+
+        .glyphicon-chevron-up {
+            display: inline-block;
+        }
+
+    }
+
+    &[aria-expanded="false"] {
+
+        .glyphicon-chevron-down {
+            display: inline-block;
+        }
+
+        .glyphicon-chevron-up {
+            display: none;
+        }
+
+    }
+}

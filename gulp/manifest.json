@@ -1,0 +1,172 @@
+{
+    "dependencies": {
+        "fonts": {
+            "files": [
+                "fonts/**/*",
+                "bower_components/bootstrap-sass/assets/fonts/**/*",
+                "bower_components/font-awesome/fonts/**/*"
+            ]
+        },
+        "images": {
+            "files": [
+                "images/**/*"
+            ]
+        },
+        "lib.js": {
+            "bower": [
+                "is_js",
+                "jquery",
+                "bootstrap-sass",
+                "jasny-bootstrap",
+                "datatables",
+                "bootbox.js",
+                "moment",
+                "eonasdan-bootstrap-datetimepicker",
+                "dragula.js"
+            ],
+            "files": [
+                "bower_components/datatables/media/js/dataTables.bootstrap.js",
+                "bower_components/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js",
+                "bower_components/select2/dist/js/select2.min.js"
+                
+            ]
+        },
+        "ckeditor-config.js": {
+            "files": [
+                "scripts/ckeditor-config.js"
+            ]
+        },
+        "ckeditor-init.js": {
+            "files": [
+                "scripts/ckeditor-init.js"
+            ]
+        },
+        "utilities.js": {
+            "files": [
+                "scripts/util/UtilityLoader.js",
+                "scripts/util/UtilityAlertMessage.js",
+                "scripts/util/UtilityField.js"
+            ]
+        },
+        "lib1.css": {
+            "files": [
+                "sass/bootstrap.scss",
+                "sass/font-awesome.scss"
+            ]
+        },
+        "lib2.css": {
+            "files": [
+                "bower_components/datatables/media/css/dataTables.bootstrap.min.css",
+                "bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css",
+                "bower_components/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css",
+                "bower_components/select2/dist/css/select2.min.css",
+                "bower_components/jasny-bootstrap/dist/css/jasny-bootstrap.min.css",
+                "bower_components/dragula.js/dist/dragula.min.css"
+            ]
+        },
+        "main.css": {
+            "files": [
+                "sass/screen.scss"
+            ]
+        },
+        "ie.css": {
+            "files": [
+                "sass/ie.scss"
+            ]
+        },
+        "print.css": {
+            "files": [
+                "sass/print.scss"
+            ]
+        },
+        "page-manage-fields.js": {
+            "files": [
+                "scripts/page/manage-fields.js"
+            ]
+        },
+        "page-edit.js": {
+            "files": [
+                "scripts/page/edit.js"
+            ]
+        },
+        "user-index.js": {
+            "files": [
+                "scripts/user/index.js"
+            ]
+        },
+        "component-add.js": {
+            "files": [
+                "scripts/component/add.js"
+            ]
+        },
+        "component-edit.js": {
+            "files": [
+                "scripts/component/edit.js"
+            ]
+        },
+        "component-index.js": {
+            "files": [
+                "scripts/component/list.js"
+            ]  
+        },
+        "component-manage-field.js": {
+            "files": [
+                "scripts/component/manage-field.js"
+            ]  
+        },
+        "field-collection-add.js": {
+            "files": [
+                "scripts/field-collection/add.js"
+            ]  
+        },
+        "field-collection-manage-field.js": {
+            "files": [
+                "scripts/field-collection/manage-field.js"
+            ]
+        },
+        "field-collection-index.js": {
+            "files": [
+                "scripts/field-collection/index.js"
+            ]
+        },
+        "field-group-add.js": {
+            "files": [
+                "scripts/field-group/add.js"
+            ]
+        },
+        "field-group-index.js": {
+            "files": [
+                "scripts/field-group/index.js"
+            ]
+        },
+        "page-add.js": {
+            "files": [
+                "scripts/page/add.js"
+            ]
+        },
+        "page-manage-field.js": {
+            "files": [
+                "scripts/page/manage-field.js"
+            ]
+        },
+        "hotel-index.js": {
+            "files": [
+                "scripts/hotel/index.js"
+            ]
+        },
+        "activity-category-index.js": {
+            "files": [
+                "scripts/activity-category/index.js"
+            ]
+        },
+        "activity-add.js": {
+            "files": [
+                "scripts/activity/add.js"
+            ]  
+        }
+    },
+    "paths": {
+        "source": "./",
+        "dist": "../../public/backend/"
+    }
+}
